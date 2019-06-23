@@ -1,9 +1,30 @@
+.material-icons.orange600 { color: #FB8C00; }
+
 body {
-    background: #0e1013;
+    /* background: #090916; */
+    background-image: url("../img/dark-background.jpg");
+    background-origin: unset;    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    overflow: hidden; /* para que não tenha rolagem se a imagem de fundo for maior que a tela */
+}
+
+.navmenu{
+    background: #030303;   
+    padding: 0.010px;
+    margin: 0%;
+    top: 0;
+    left: 0;
+    margin-left: -10px; /*Faço isso para que fique no top */
+    margin-top: -10px;
+    width: 120%;  
 }
 
 .logo{
-    padding: 5px;
+    padding: 10px;
     border-style: none;
     border: 0px;
     margin-top: 30px;
@@ -12,13 +33,15 @@ body {
 /* Menu 2.0 */
 .menu-horizontal{
     /* margin-top: 100px; */    
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .menu-horizontal a{
-    border: 1px solid white;
-    padding: 5px;   
+    /* border: 1px solid white; */
+    padding: 3px;   
     font-family: 'Courier New', Courier, monospace;
-    font-size: 25px;
+    font-size: 15px;
     margin-right: 20px;
 }
 
@@ -39,13 +62,12 @@ body {
 .button-style-menu{
     width: 160px;
     height: 50px;
-    font-size: 15px;
-    background-color: #122b3e; /* (209, 95, 75); */   
+    font-size: 12px;
+    background-color: #122b3e; /* (209, 95, 75);   */
     color: white;
     border-radius: 50px;
     border-color: white;
     margin-right: 5px;
-    
 }
 
 .button-style-menu-right{
@@ -56,6 +78,10 @@ body {
     position: fixed; right: 20px;
     border-radius: 100px;
     color: white;
+}
+
+.maquinaescreverfundo{
+    
 }
 
 /** Titulo com animação **/
@@ -115,14 +141,24 @@ ul li a{
 /* Css principal da página*/
 .wrapper{
     margin: 0 auto;
-    width: 60%;
+    width: 100%;
+    margin-top: 120px;
 }
 
 .content{
     border: 2px solid white;
     border-left: none;
     border-right: none;
-    height: 500px;
+    height: 100%;
+    background-image: url("../img/Parallax-Background-Dark-02.jpg");
+    background-origin: unset;    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    opacity:0.65;
+	-moz-opacity: 0.65;
+	filter: alpha(opacity=65);
 }
 
 /* Rodapé*/
